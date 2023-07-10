@@ -3,7 +3,7 @@
 These are two functions I have created that allow a user to encode or decode a string with Base64 with Python. 
 To use them, see [raw-functions.py](raw-functions.py) and paste them into your code like so:
 
-`File: main.py in selected workspace` (*Note that anything aside from the functions can be changed to fit your needs.*):
+**`File: main.py in selected workspace` (*Note that anything aside from the functions can be changed to fit your needs.*):**
 ```py
 CHARACTERS = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","0","1","2","3","4","5","6","7","8","9","+","/"]
 
