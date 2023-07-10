@@ -1,4 +1,4 @@
-# __global__ Functions
+# @__global__ Functions
 
 
 def encode_base64string(bin_fractals, padding):
