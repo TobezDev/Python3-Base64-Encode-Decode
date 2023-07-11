@@ -8,7 +8,7 @@ To use them, see [raw-functions.py](raw-functions.py) and paste them into your c
 CHARACTERS = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","0","1","2","3","4","5","6","7","8","9","+","/"]
 
 def encode_base64string(bin_fractals, padding):
-    base64_string = [CHARACTERS[int(bin_fractal, 2)] for bin_fractal in bin_fractals]
+    base64_string = [CHARACTERS[int(bin_fractal, 2)] for bin_fractal in bin_fractals
     for i in range(len(base64_string) - padding, len(base64_string)):
         base64_string[i].replace("A", "=")
     return "".join(base64_string)

@@ -12,4 +12,3 @@ def decode_base64string(base64_string):
     base64_string = base64_string.replace("=", "A")
     bin_fractals = [str(bin(CHARACTERS.index(char)))[2:].rjust(6, "0") for char in base64_string]
     return bin_fractals, padding
-
